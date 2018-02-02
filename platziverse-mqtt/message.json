@@ -1,0 +1,1 @@
+{"agent": {"uuid": "www-www-www","name": "test","username": "platziverse","hostname": "https://node.org","pid": "10","connected": false},"metrics": [{"type": "humedad","value": "590"},{"type": "temp","value": "60"}]}

@@ -1,0 +1,30 @@
+{
+  "name": "platziverse-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataform de IoT - agent",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theeddy002/platziverse.git"
+  },
+  "author": "eddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theeddy002/platziverse/issues"
+  },
+  "homepage": "https://github.com/theeddy002/platziverse#readme",
+  "devDependencies": {
+    "casual": "^1.5.19",
+    "standard": "^10.0.3",
+    "uuid": "^3.1.0"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "defaults": "^1.0.3",
+    "mqtt": "^2.15.1"
+  }
+}

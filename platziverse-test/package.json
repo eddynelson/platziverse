@@ -1,0 +1,23 @@
+{
+  "name": "platziverse-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "modulo de test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theeddy002/platziverse.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theeddy002/platziverse/issues"
+  },
+  "homepage": "https://github.com/theeddy002/platziverse#readme",
+  "dependencies": {
+    "casual": "^1.5.19"
+  }
+}

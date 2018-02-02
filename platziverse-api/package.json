@@ -1,0 +1,42 @@
+{
+  "name": "platziverse-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API for A simple platform IoT",
+  "main": "server.js",
+  "scripts": {
+    "test": "DEBUG=platziverse:* ava tests/ --verbose",
+    "lint": "standard",
+    "start-dev": "DEBUG=platziverse:* nodemon server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theeddy002/platziverse.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theeddy002/platziverse/issues"
+  },
+  "homepage": "https://github.com/theeddy002/platziverse#readme",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "nodemon": "^1.14.11",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.1.6",
+    "standard": "^10.0.3",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-asyncify": "^1.0.0",
+    "express-jwt": "^5.3.0",
+    "express-jwt-permissions": "^1.0.0",
+    "jsonwebtoken": "^8.1.0",
+    "platziverse-db": "file:../platziverse-db",
+    "platziverse-test": "file:../platziverse-test"
+  }
+}
