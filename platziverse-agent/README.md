@@ -1,8 +1,8 @@
-##platziverse-agent
+## platziverse-agent
 
-#usage
+# usage
 
-```js
+``` js
 'use strict'
 
 const PlatziverseAgent = require('platziverse-agent')
