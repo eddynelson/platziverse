@@ -1,10 +1,10 @@
-#Platziverse-mqtt
+# Platziverse-mqtt
 
 Message broker
 
-##agent/connected
+## agent/connected
 
-```js
+``` js
 
 {
   agent: {
@@ -19,9 +19,9 @@ Message broker
 
 ```
 
-##agent/disconnected
+## agent/disconnected
 
-```js
+``` js
 {
   agent: {
     uuid
@@ -29,9 +29,9 @@ Message broker
 }
 ```
 
-##agent/message
+## agent/message
 
-```js
+``` js
 {
   agent,
   metrics: [{ type, value }],
