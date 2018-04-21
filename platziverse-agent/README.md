@@ -1,6 +1,6 @@
-## platziverse-agent
+# platziverse-agent
 
-# usage
+## usage
 
 ``` js
 'use strict'
